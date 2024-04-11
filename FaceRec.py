@@ -1,3 +1,4 @@
+#face recognition with opencv and haarcascades
 import cv2
 def generatedataset(frame, id, imageid):
     cv2.imwrite("dataset/User."+str(id)+"."+str(imageid)+".jpg",frame)
